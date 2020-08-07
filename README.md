@@ -1,2 +1,1 @@
 # ASPECTical.MEF
-# ASPECTical.MEF

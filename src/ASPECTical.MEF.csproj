@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net461;net472</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="System.ComponentModel.Composition" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MefContrib" Version="1.2.2.1" />
+      <PackageReference Include="System.Composition.Runtime" Version="1.0.31" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ASPECTical\ASPECTical.csproj" />
+    </ItemGroup>
+
+</Project>
